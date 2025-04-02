@@ -1,0 +1,8 @@
+&i2c0 {
+	status = "okay";
+	bmi_wrapper: bmi270@68 {
+		compatible = "bosch,bmi270";
+		reg = <0x68>;
+        	status = "okay";
+	};
+};

@@ -14,9 +14,9 @@ Start the skeleton with west
 
     west init -m <repo> --manifest-rev main
 
-Configure the board
+Configure the board (any board with i2c)
 
-    west config build.board native_sim
+    west config build.board nrf52840dk/nrf52840
 
 Synchronize the west workspace. This might take while.
 
